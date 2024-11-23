@@ -34,7 +34,7 @@ class ToyCarsAdapter(private val mContext : Context,private val carList : List<C
         holder.binding.textViewCarName.text = car.name
         holder.binding.buttonBasket.setOnClickListener {
 
-            Toast.makeText(mContext,"Added Basket",Toast.LENGTH_SHORT).show()
+            Toast.makeText(mContext,"Added to basket",Toast.LENGTH_SHORT).show()
         }
     }
 
